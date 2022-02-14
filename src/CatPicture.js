@@ -12,7 +12,6 @@ class CatPicture extends Component {
             .then(resp => resp.json())
             .then(json => {
                 this.setState({catURL: `https://cataas.com${json.url}`});
-                console.log(this.state.catURL)
             })
     }
     render(){
