@@ -2,6 +2,7 @@ import react, { Component } from "react";
 import CatPicture from './CatPicture';
 import ChuckNorris from './ChuckNorris';
 import 'tachyons';
+import './App.css';
 
 class App extends Component {
     render() {
