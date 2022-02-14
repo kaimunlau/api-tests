@@ -14,7 +14,7 @@ class ChuckNorris extends Component {
     }
     render() {
         return(
-            <p>{this.state.joke}</p>
+            <p className='f1'>{this.state.joke}</p>
         )
     }
 }

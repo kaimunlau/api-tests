@@ -17,7 +17,7 @@ class CatPicture extends Component {
     render(){
         return(
             <div>
-                <img src={this.state.catURL}></img>
+                <img src={this.state.catURL} className='br4 ba bw2 shadow-2'></img>
             </div>
         )
     }
